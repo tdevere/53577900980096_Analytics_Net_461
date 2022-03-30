@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnSendEvent" Content="Send Event" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.05,-1.359" Height="29" Width="173" Click="btnSendEvent_Click"/>
+        <Label x:Name="lblSendEvent" Content="SendEvent" HorizontalAlignment="Left" Margin="203,13,0,0" VerticalAlignment="Top" Width="436" IsEnabled="False"/>
+        <Button x:Name="btnTEST1" Content="TEST 1" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Width="173" Height="28" Click="btnTEST1_Click"/>
+        <Label x:Name="lblTest1" Content="" HorizontalAlignment="Left" Margin="203,45,0,0" VerticalAlignment="Top" Width="436" IsEnabled="False"/>
+
     </Grid>
 </Window>
